@@ -1,0 +1,9 @@
+package com.durgasoft.excel;
+
+import org.testng.annotations.Test;
+
+public class ReadDataDriverClass {
+  @Test
+  public void f() {
+  }
+}

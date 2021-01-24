@@ -1,0 +1,42 @@
+********Starting TC001_CustomerRegistration********
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (b787219337a5e6432fb392466ab851ad)] -> link text: Sign in]
+Entering Email ID: qatest1892@gmail.com using object [[ChromeDriver: chrome on XP (b787219337a5e6432fb392466ab851ad)] -> id: email_create]
+Clicking on create an account: [[ChromeDriver: chrome on XP (b787219337a5e6432fb392466ab851ad)] -> id: SubmitCreate]
+********End of TC001_CustomerRegistration********
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (ec655400909fefcbe5214af4c1f52e9d)] -> link text: Sign in]
+Entering Email ID: qatest3597@gmail.com using object [[ChromeDriver: chrome on XP (ec655400909fefcbe5214af4c1f52e9d)] -> id: email_create]
+Clicking on create an account: [[ChromeDriver: chrome on XP (ec655400909fefcbe5214af4c1f52e9d)] -> id: SubmitCreate]
+********End of TC001_CustomerRegistration********
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (9c7ebf38bc356d439c486d3b58636fbe)] -> link text: Sign in]
+Entering Email ID: qatest7112@gmail.com using object [[ChromeDriver: chrome on XP (9c7ebf38bc356d439c486d3b58636fbe)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (759c661f8f27c244a827aeda6c15a5aa)] -> link text: Sign in]
+Entering Email ID: qatest2279@gmail.com using object [[ChromeDriver: chrome on XP (759c661f8f27c244a827aeda6c15a5aa)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (3cc857908f0ed4c9b262b68fa46c22cc)] -> link text: Sign in]
+Entering Email ID: qatest8455@gmail.com using object [[ChromeDriver: chrome on XP (3cc857908f0ed4c9b262b68fa46c22cc)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (3cc857908f0ed4c9b262b68fa46c22cc)] -> link text: Sign in]
+Entering Email ID: qatest8455@gmail.comqatest197@gmail.com using object [[ChromeDriver: chrome on XP (3cc857908f0ed4c9b262b68fa46c22cc)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (3cc857908f0ed4c9b262b68fa46c22cc)] -> link text: Sign in]
+Entering Email ID: qatest9836@gmail.com using object [[ChromeDriver: chrome on XP (3cc857908f0ed4c9b262b68fa46c22cc)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (662db7925e2566b138dfdc88fdb1924c)] -> link text: Sign in]
+Entering Email ID: qatest7455@gmail.com using object [[ChromeDriver: chrome on XP (662db7925e2566b138dfdc88fdb1924c)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (662db7925e2566b138dfdc88fdb1924c)] -> link text: Sign in]
+Entering Email ID: qatest6840@gmail.com using object [[ChromeDriver: chrome on XP (662db7925e2566b138dfdc88fdb1924c)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (662db7925e2566b138dfdc88fdb1924c)] -> link text: Sign in]
+Entering Email ID: qatest781@gmail.com using object [[ChromeDriver: chrome on XP (662db7925e2566b138dfdc88fdb1924c)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (662db7925e2566b138dfdc88fdb1924c)] -> link text: Sign in]
+Entering Email ID: qatest2314@gmail.com using object [[ChromeDriver: chrome on XP (662db7925e2566b138dfdc88fdb1924c)] -> id: email_create]
+********Starting TC001_CustomerRegistration********
+Clicked on SignIN button with object: [[ChromeDriver: chrome on XP (15d2b5260e6063b7e9d62d065ef6d509)] -> link text: Sign in]
+Entering Email ID: qatest3510@gmail.com using object [[ChromeDriver: chrome on XP (15d2b5260e6063b7e9d62d065ef6d509)] -> id: email_create]

@@ -1,0 +1,92 @@
+package com.durgasoft.excel;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excel_API {
+
+	public FileInputStream fi = null;
+	public FileOutputStream fo = null;
+	public XSSFWorkbook w = null;
+	public XSSFSheet s = null;
+	public XSSFRow r = null;
+	public XSSFCell c = null;
+	String filepath;
+
+	public Excel_API(String file) throws Exception {
+		this.filepath = file;
+		fi = new FileInputStream(filepath);
+		w = new XSSFWorkbook(fi);
+
+	}
+
+	// Reading cell data from excel by using column index
+	public String getCellData(String sheetname, int colnum, int rownum) {
+		try {
+			s = w.getSheet(sheetname);
+			r = s.getRow(rownum);
+			c = r.getCell(colnum);
+
+			if (c.getCellTypeEnum() == CellType.STRING) {
+				return c.getStringCellValue();
+			} else if (c.getCellTypeEnum() == CellType.NUMERIC || c.getCellTypeEnum() == CellType.FORMULA) {
+				String cellvalue = String.valueOf(c.getNumericCellValue());
+				return cellvalue;
+			} else if (c.getCellTypeEnum() == CellType.BLANK) {
+				return "";
+			} else {
+				return String.valueOf(c.getBooleanCellValue());
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return "No matching value";
+		}
+	}
+
+	// Reading cell data from excel by using column name
+	public String getCellData(String sheetname, String colname, int rownum) {
+		try {
+			int column = -1;
+			s = w.getSheet(sheetname);
+			r = s.getRow(0);
+			for (int i = 0; i < r.getLastCellNum(); i++) {
+				if (r.getCell(i).getStringCellValue().equalsIgnoreCase(colname)) {
+					column = i;
+				}
+			}
+			r = s.getRow(rownum);
+			c = r.getCell(column);
+			if (c.getCellTypeEnum() == CellType.STRING) {
+				return c.getStringCellValue();
+			} else if (c.getCellTypeEnum() == CellType.NUMERIC || c.getCellTypeEnum() == CellType.FORMULA) {
+				String cellvalue = String.valueOf(c.getNumericCellValue());
+				return cellvalue;
+			} else if (c.getCellTypeEnum() == CellType.BLANK) {
+				return "";
+			} else {
+				return String.valueOf(c.getBooleanCellValue());
+			}
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return "No matching value";
+		}
+	}
+
+	// Writing cell data to excel by using column index
+	public void setCellData(String sheetname, int colnum, int roenum) {
+
+	}
+
+	// Writing cell data to excel by using column name
+	public void setCellData(String sheetname, String colname, int roenum) {
+
+	}
+}
